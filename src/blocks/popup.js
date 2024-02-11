@@ -39,6 +39,8 @@ class PopupLight extends HTMLElement {
                 background-color: rgba(46, 46, 46, 0.8);
                 position: fixed;
                 z-index: 999;
+                top: 0;
+                left: 0;
             }
 
             #simple-lightbox.hidden {
